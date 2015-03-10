@@ -103,5 +103,11 @@
   <ItemGroup>
     <Content Include="Entitlements.plist" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.Forms\Forms.Lista\Forms.Lista\Forms.Lista.csproj">
+      <Project>{552D54F1-2642-4573-A272-665C7F96B227}</Project>
+      <Name>Forms.Lista</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

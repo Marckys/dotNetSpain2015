@@ -20,6 +20,7 @@ namespace ListaSimple
             this._films = films;
         }
 
+
         public override long GetItemId(int position)
         {
             return position;
